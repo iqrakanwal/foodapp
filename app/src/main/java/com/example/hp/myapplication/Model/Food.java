@@ -1,17 +1,36 @@
 package com.example.hp.myapplication.Model;
 
 public class Food {
-    private String Name, Image,Description,Price,Discount,MenuId;
+    private String Name, Image,Description,Price,Discount, key ;
+    private Category category;
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
     public Food(){
 
     }
-    public Food(String name, String image, String description, String price, String discount, String menuId){
+
+    public Food(String name, String image, String description, String price, String discount, Category category) {
         Name = name;
         Image = image;
         Description = description;
         Price = price;
         Discount = discount;
-        MenuId = menuId;
+        this.category = category;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public String getName() {
@@ -47,11 +66,4 @@ public class Food {
         Discount = discount;
     }
 
-    public String getMenuId() {
-        return MenuId;
-    }
-
-    public void setMenuId(String menuId) {
-        MenuId = menuId;
-    }
-}
+  }

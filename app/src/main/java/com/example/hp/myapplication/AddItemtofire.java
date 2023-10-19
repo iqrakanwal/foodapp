@@ -17,12 +17,16 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hp.myapplication.Interface.MyCatagoryCallback;
+import com.example.hp.myapplication.Model.Category;
 import com.example.hp.myapplication.Model.Food;
 import com.example.hp.myapplication.Model.Food;
 import com.google.android.gms.tasks.Continuation;
@@ -30,6 +34,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -37,17 +42,20 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Objects;
 import java.util.UUID;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class AddItemtofire extends AppCompatActivity {
-
+    private ArrayList<String> farmName;
+    private ArrayList<Category> farmsd;
     ImageView addimagedoctor;
     CircleImageView profileimage;
     EditText nameofcheese;
     EditText price;
+    Spinner catagories;
     Button saveinformation;
     EditText description_et;
 EditText dis_et;
@@ -68,9 +76,32 @@ EditText menu_et;
         addimagedoctor = findViewById(R.id.addimagedoctor);
         nameofcheese = findViewById(R.id.name_et);
         description_et = findViewById(R.id.description_et);
+        farmName = new ArrayList<>();
         price = findViewById(R.id.price_et);
         dis_et= findViewById(R.id.dis_et);
-        menu_et= findViewById(R.id.menu_et);
+        catagories= findViewById(R.id.catagoryspinner);
+        getAllCatagory(new MyCatagoryCallback() {
+            @Override
+            public void onCallback(ArrayList<Category> animals) {
+            //    farmName = new ArrayList<>();
+                Toast.makeText(AddItemtofire.this, String.valueOf(animals.size()), Toast.LENGTH_SHORT).show();
+
+                for (Category number : animals) {
+                    farmName.add(number.getName());
+                    Log.e("szdjsdkj", number.getName());
+                }
+
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+                        AddItemtofire.this,
+                        android.R.layout.simple_spinner_item,
+                        farmName
+                );
+           //     adapter.setDropDownViewResource(android.);
+              adapter.setDropDownViewResource(                        android.R.layout.simple_spinner_item);
+                catagories.setAdapter(adapter);
+                catagories.getSelectedItem().toString();
+            }
+        });
         saveinformation = findViewById(R.id.saveinformation);
         profileimage = findViewById(R.id.profileimage);
         addimagedoctor.setOnClickListener(new View.OnClickListener() {
@@ -164,7 +195,9 @@ EditText menu_et;
         doctor.setImage(s);
         doctor.setPrice(price.getText().toString());
         doctor.setDiscount(dis_et.getText().toString());
-        doctor.setMenuId(menu_et.getText().toString());
+        doctor.setCategory(
+                new Category(catagories.getSelectedItem().toString(),
+                        farmsd.get(catagories.getSelectedItemPosition()).getImage().toString())  );
         addDoctor(doctor);
         // adViewModel.adDoctor(doctor, this::Done);
     }
@@ -192,5 +225,24 @@ EditText menu_et;
         Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
 
     }
+
+
+    public void getAllCatagory(final MyCatagoryCallback callback) {
+        farmsd = new ArrayList<>();
+        mFirebaseDatabase.getRef().child("catagory").get().addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
+            @Override
+            public void onSuccess(DataSnapshot dataSnapshot) {
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Category day = snapshot.getValue(Category.class);
+                    farmsd.add(day);
+                }
+                callback.onCallback(farmsd);
+         //       callback.onSuccess(farmsd);
+            }
+        });
+
+
+    }
+
 
 }

@@ -1926,6 +1926,7 @@ id cart_item_count
 id cart_item_name
 id cart_item_price
 id catagory
+id catagoryspinner
 id categoryImageView
 id categoryNameTextView
 id center
@@ -2025,8 +2026,6 @@ id listMode
 id list_item
 id masked
 id media_actions
-id menu
-id menu_et
 id menu_image
 id menu_name
 id message

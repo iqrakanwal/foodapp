@@ -47,7 +47,7 @@ public class AddCatagoryActivity extends AppCompatActivity {
     private DatabaseReference mFirebaseDatabase = mFirebaseInstance.getReference();
     FirebaseStorage storage = FirebaseStorage.getInstance();
     StorageReference storageReference = storage.getReference();
-Button addcatagory;
+    Button addcatagory;
 
 
     public static final int PICK_IMAGE = 1;
@@ -60,8 +60,8 @@ Button addcatagory;
         setContentView(R.layout.activity_add_catagory);
         addimagedoctor = findViewById(R.id.addimagecatagry);
         profileimage = findViewById(R.id.profileimage);
-        name= findViewById(R.id.name);
-        addcatagory= findViewById(R.id.addcatagory);
+        name = findViewById(R.id.name);
+        addcatagory = findViewById(R.id.addcatagory);
         addimagedoctor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -160,6 +160,9 @@ Button addcatagory;
                     @Override
                     public void onSuccess(Void aVoid) {
                         Toast.makeText(AddCatagoryActivity.this, "kjhkejhr", Toast.LENGTH_SHORT);
+                        Intent intent = new Intent(AddCatagoryActivity.this, AddItemtofire.class);
+                        startActivity(intent);
+
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -169,7 +172,6 @@ Button addcatagory;
                     }
                 });
     }
-
 
 
 }

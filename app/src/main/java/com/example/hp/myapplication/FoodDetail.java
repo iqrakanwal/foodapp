@@ -29,9 +29,7 @@ public class FoodDetail extends AppCompatActivity {
     CollapsingToolbarLayout collapsingToolbarLayout;
     FloatingActionButton btncart;
     ElegantNumberButton numberButton;
-
     String foodId = "";
-
     FirebaseDatabase database;
     DatabaseReference foods;
     Food currentFood;
@@ -68,12 +66,12 @@ public class FoodDetail extends AppCompatActivity {
         collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.ExpandedAppbar);
         collapsingToolbarLayout.setCollapsedTitleTextAppearance(R.style.CollapsedAppbar);
         //get foodId
-        if (getIntent() != null)
+      if (getIntent() != null)
             foodId = getIntent().getStringExtra("FoodId");
-        getDetailFood(foodId);
-     /*   if (!foodId.isEmpty()) {
 
-        }*/
+       if (!foodId.isEmpty()) {
+           getDetailFood(foodId);
+        }
     }
 
     private void getDetailFood(String foodId) {
@@ -84,7 +82,7 @@ public class FoodDetail extends AppCompatActivity {
                 //set Image
                 Glide.with(getBaseContext()).load(currentFood.getImage()).into(food_image);
                 collapsingToolbarLayout.setTitle(currentFood.getName());
-                food_price.setText(currentFood.getName());
+                food_price.setText(currentFood.getPrice());
                 food_description.setText(currentFood.getDescription());
             }
 

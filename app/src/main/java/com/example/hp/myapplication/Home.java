@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -29,11 +30,12 @@ import com.example.hp.myapplication.Model.Category;
 import com.example.hp.myapplication.Model.Food;
 import com.example.hp.myapplication.ViewHolder.MenuViewHolder;
 import com.example.hp.myapplication.adaptors.CategoryAdapter;
-import com.example.hp.myapplication.adaptors.CheeseAdaptor;
+import com.example.hp.myapplication.adaptors.CatagoryAdaptor;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -54,8 +56,8 @@ RecyclerView recycler_menu;
     RecyclerView recycle_menu;
     Button add;
     LinearLayoutManager layoutManager;
-    private CheeseAdaptor animalAdaptor;
-    private ArrayList<Food> arrayList;
+    private CatagoryAdaptor animalAdaptor;
+    private ArrayList<Category> arrayList;
  //   private LinearLayoutManager layout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,21 +102,52 @@ RecyclerView recycler_menu;
         recycle_menu.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recycle_menu.setLayoutManager(layoutManager);
-        loadMenu();
-        //getAllAnimals(this);
+       // loadMenu();
+        getAllAnimals(this);
     }
     @Override
     protected void onStart() {
         super.onStart();
-        adapter.startListening();
+      //  adapter.startListening();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        adapter.stopListening();
+        //adapter.stopListening();
     }
     private void loadMenu() {
+
+        FirebaseDatabase.getInstance().getReference().child("catagory").addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+           /*     adapter = new CategoryAdapter(options);
+                recycle_menu.setAdapter(adapter);*/
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
+
+
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("catagory");
         FirebaseRecyclerOptions<Category> options = new FirebaseRecyclerOptions.Builder<Category>()
@@ -204,20 +237,21 @@ RecyclerView recycler_menu;
     }
 
     @Override
-    public void onCallback(ArrayList<Food> animals) {
+    public void onCallback(ArrayList<Category> animals) {
         Toast.makeText(this, ""+animals.size(), Toast.LENGTH_SHORT).show();
         if (animals.size() == 0) {
             Toast.makeText(this, "Not Available", Toast.LENGTH_SHORT).show();
         } else {
             arrayList.addAll(animals);
-            animalAdaptor = new CheeseAdaptor(this, arrayList, new CheeseAdaptor.AnimalClickListener() {
+            animalAdaptor = new CatagoryAdaptor(this, arrayList, new CatagoryAdaptor.AnimalClickListener() {
                 @Override
-                public void onAnimalClick(Food animal) {
+                public void onAnimalClick(Category animal) {
 
                     Toast.makeText(Home.this,""+animal.getName(),Toast.LENGTH_SHORT).show();
                     //start activity
-                    Intent foodDetails = new Intent(Home.this,FoodDetail.class);
-                //   foodDetails.putExtra("FoodId",animal.getKey());
+                    Intent foodDetails = new Intent(Home.this,FoodList.class);
+                  //  DataHolder.getInstance().setSharedData(animal);
+                   foodDetails.putExtra("CategoryId",animal.getName());
                     startActivity(foodDetails);
                 }
             });
@@ -232,14 +266,14 @@ RecyclerView recycler_menu;
 
 
     public void getAllAnimals(final MyCallback callback) {
-        final ArrayList<Food> animals = new ArrayList<>();
-        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Food");
+        final ArrayList<Category> animals = new ArrayList<>();
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("catagory");
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-
-                    Food animal = snapshot.getValue(Food.class);
+                   Category animal = snapshot.getValue(Category.class);
+                   animal.setKey(snapshot.getKey());
                     if (animal != null) {
                         animals.add(animal);
                     }

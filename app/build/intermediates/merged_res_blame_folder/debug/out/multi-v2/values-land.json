@@ -4,7 +4,7 @@
             "outputFile": "com.example.hp.myapplication.app-mergeDebugResources-23:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Iqra Kanwal\\.gradle\\caches\\transforms-3\\079f5f6dae03bec7ece3d5026d7898e2\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\fadi\\.gradle\\caches\\transforms-3\\079f5f6dae03bec7ece3d5026d7898e2\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Iqra Kanwal\\.gradle\\caches\\transforms-3\\ea31433cb74fe975742512597a751402\\transformed\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\fadi\\.gradle\\caches\\transforms-3\\ea31433cb74fe975742512597a751402\\transformed\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

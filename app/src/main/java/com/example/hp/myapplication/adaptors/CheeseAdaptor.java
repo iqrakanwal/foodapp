@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.hp.myapplication.Model.Food;
+import com.example.hp.myapplication.Model.Food;
 import com.example.hp.myapplication.R;
 
 import java.util.ArrayList;
@@ -44,7 +45,7 @@ public class CheeseAdaptor extends RecyclerView.Adapter<CheeseAdaptor.ImageItem>
         holder.name.setText(images.get(position).getName());
         holder.price.setText(images.get(position).getPrice());
         holder.catagory.setText(images.get(position).getDescription());
-        holder.farmname.setText(images.get(position).getPrice());
+       holder.farmname.setText(images.get(position).getPrice());
         holder.item.setOnClickListener(view -> animalClickListener.onAnimalClick(images.get(position)));
         Glide.with(context).load(images.get(position).getImage()).into(holder.image);
     }

@@ -1,290 +1,286 @@
 [
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_cart.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_food.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_food.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_welcome_slide3.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\welcome_slide3.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_shopping_cart_black_24dp.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_shopping_cart_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_movie.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_movie.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_my_bg.jpg.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\my_bg.jpg"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_edtitext_bg.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/edtitext_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_attach_money_black_24dp.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_attach_money_black_24dp.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/menu_home.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/menu/home.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-xxhdpi_group_65.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-xxhdpi\\group_65.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-v21_ic_menu_send.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable-v21/ic_menu_send.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_cheese.jpg.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/cheese.jpg"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_food_detail.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_food_detail.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-ldpi_group_65.png.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-ldpi/group_65.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_app_bar_home.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\app_bar_home.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_itemtofire.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_itemtofire.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_travel.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_travel.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_movie.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_movie.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_safe_box_item.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\safe_box_item.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-anydpi-v24_group_65.xml.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-anydpi-v24/group_65.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_restaurant_menu_black_24dp.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_restaurant_menu_black_24dp.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_attach_money_black_24dp.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_attach_money_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_exit_to_app_black_24dp.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_exit_to_app_black_24dp.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_button_gradient.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/button_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_add_catagory.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_add_catagory.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_add_itemtofire.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_add_itemtofire.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-xhdpi_group_65.png.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-xhdpi/group_65.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-xhdpi_group_65.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-xhdpi\\group_65.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_food_list.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_food_list.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\menu_activity_home_drawer.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\menu\\activity_home_drawer.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_cart.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_restaurant_menu_black_24dp.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_restaurant_menu_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_cart_layout.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\cart_layout.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_content_home.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/content_home.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_shopping_cart_black_24dp.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_shopping_cart_black_24dp.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_add_itemtofire.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_add_itemtofire.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-ldpi_group_65.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-ldpi\\group_65.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_add_catagory.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_add_catagory.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-v21_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable-v21\\ic_menu_slideshow.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_food_item.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/food_item.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_exit_to_app_black_24dp.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_exit_to_app_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-v21_ic_menu_manage.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable-v21\\ic_menu_manage.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_cheese.jpg.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\cheese.jpg"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_menu_list.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\menu_list.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_menu_list.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/menu_list.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-mdpi_group_65.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-mdpi\\group_65.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/menu_activity_home_drawer.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/menu/activity_home_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_white_box.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/white_box.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_welcome.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_welcome.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-v21_ic_menu_manage.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable-v21/ic_menu_manage.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_access_time_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_welcome_slide3.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/welcome_slide3.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_content_home.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\content_home.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-v21_ic_menu_share.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable-v21/ic_menu_share.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-v21_ic_menu_send.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable-v21\\ic_menu_send.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-v21_ic_menu_gallery.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable-v21\\ic_menu_gallery.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-hdpi_group_65.png.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-hdpi/group_65.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_main.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-v21_ic_menu_slideshow.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable-v21/ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\side_nav_bar.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-xxhdpi_group_65.png.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-xxhdpi/group_65.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_item_category.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\item_category.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_home.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_food.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_food.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_app_bar_home.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/app_bar_home.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_discount.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_discount.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_food_detail.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_food_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\menu_home.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\menu\\home.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_nav_header_home.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/nav_header_home.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_roundedcorner.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\roundedcorner.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_travel.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_travel.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_welcome_slide2.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/welcome_slide2.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_welcome_slide4.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\welcome_slide4.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_button_gradient.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\button_gradient.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_safe_box_item.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/safe_box_item.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_welcome_slide1.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\welcome_slide1.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-v21_ic_menu_gallery.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable-v21/ic_menu_gallery.xml"
     },
     {
         "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_item_category.xml.flat",
         "source": "com.example.hp.myapplication.app-main-27:/layout/item_category.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_welcome.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_food_item.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\food_item.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_bg.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/bg.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_sign_in.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_bg.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\bg.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_food_list.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_food_list.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-xxxhdpi_group_65.png.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-xxxhdpi/group_65.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-xxxhdpi_group_65.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-xxxhdpi\\group_65.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-v21_ic_menu_camera.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable-v21/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-hdpi_group_65.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-hdpi\\group_65.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_adminside.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_adminside.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_welcome_slide4.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/welcome_slide4.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_nav_header_home.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\nav_header_home.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_home.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_roundedcorner.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/roundedcorner.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_ic_access_time_black_24dp.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\ic_access_time_black_24dp.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_activity_adminside.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/activity_adminside.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-anydpi-v24_group_65.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-pngs-20:\\drawable-anydpi-v24\\group_65.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_cheeseicon.png.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\cheeseicon.png"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_cheeseicon.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/cheeseicon.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_itemtofire.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_itemtofire.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_my_bg.jpg.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/my_bg.jpg"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_welcome_slide2.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\welcome_slide2.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable_ic_discount.png.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/drawable/ic_discount.png"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\layout\\activity_sign_up.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_white_box.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\white_box.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_welcome_slide1.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/welcome_slide1.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable_edtitext_bg.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable\\edtitext_bg.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/layout_cart_layout.xml.flat",
+        "source": "com.example.hp.myapplication.app-main-27:/layout/cart_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-v21_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable-v21\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-merged_res-25:\\drawable-v21_ic_menu_share.xml.flat",
-        "source": "C:\\Users\\Iqra Kanwal\\.gradle\\daemon\\7.5\\com.example.hp.myapplication.app-main-27:\\drawable-v21\\ic_menu_share.xml"
+        "merged": "com.example.hp.myapplication.app-merged_res-25:/drawable-mdpi_group_65.png.flat",
+        "source": "com.example.hp.myapplication.app-pngs-20:/drawable-mdpi/group_65.png"
     }
 ]

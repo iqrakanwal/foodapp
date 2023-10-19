@@ -2,112 +2,108 @@ package com.example.hp.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
-import com.example.hp.myapplication.Interface.ItemClickListener;
+import com.example.hp.myapplication.Interface.MyCallback;
+import com.example.hp.myapplication.Interface.MyFoodCallback;
+import com.example.hp.myapplication.Model.Category;
 import com.example.hp.myapplication.Model.Food;
-import com.example.hp.myapplication.ViewHolder.FoodViewHolder;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.example.hp.myapplication.adaptors.CatagoryAdaptor;
+import com.example.hp.myapplication.adaptors.FoodAdaptor;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
 
 public class FoodList extends AppCompatActivity {
-
+ArrayList<Food> foodArrayList;
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
-
     FirebaseDatabase database;
     DatabaseReference foodList;
-    String categoryId="";
-    FirebaseRecyclerAdapter<Food,FoodViewHolder> adapter;
+    String categoryId;
+    FoodAdaptor animalAdaptor;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_list);
-        //Firebase
         database = FirebaseDatabase.getInstance();
-        foodList = database.getReference("Foods");
-        recyclerView = (RecyclerView)findViewById(R.id.recycler_food);
+        foodList = database.getReference("Food");
+        foodArrayList= new ArrayList<>();
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_food);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         //get intent here
-        if(getIntent()!=null)
+        if (getIntent() != null)
             categoryId = getIntent().getStringExtra("CategoryId");
-        if(!categoryId.isEmpty() && categoryId!=null)
-        {
-            loadListFood(categoryId);
+        if (!categoryId.isEmpty() && categoryId != null) {
+            getAllFood(
+                    new MyFoodCallback() {
+                        @Override
+                        public void onCallback(ArrayList<Food> animals) {
+                            Toast.makeText(FoodList.this, ""+animals.size(), Toast.LENGTH_SHORT).show();
+                            if (animals.size() == 0) {
+                                Toast.makeText(FoodList.this, "Not Available", Toast.LENGTH_SHORT).show();
+                            } else {
+                                foodArrayList.addAll(animals);
+                                animalAdaptor = new FoodAdaptor(FoodList.this, foodArrayList, new FoodAdaptor.AnimalClickListener() {
+                                    @Override
+                                    public void onAnimalClick(Food animal) {
+                                        Intent foodDetails = new Intent(FoodList.this, FoodDetail.class);
+                                        foodDetails.putExtra("FoodId",animal.getKey());
+                                        startActivity(foodDetails);
+                                     /*   Toast.makeText(Home.this,""+animal.getName(),Toast.LENGTH_SHORT).show();
+                                        //start activity
+                                        Intent foodDetails = new Intent(Home.this,FoodList.class);
+                                        //  DataHolder.getInstance().setSharedData(animal);
+
+                                        startActivity(foodDetails);*/
+                                    }
+                                });
+                                recyclerView.setLayoutManager(layoutManager);
+                         //       RecyclerView.ItemDecoration dividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
+                            //    recyclerView.addItemDecoration(dividerItemDecoration);
+                                recyclerView.setAdapter(animalAdaptor);
+                            }
+                        }
+                    });
         }
     }
-
-    private void loadListFood(String categoryId) {
-        Query query = foodList.getRef().orderByChild("MenuId")
-                .equalTo(categoryId);
-        FirebaseRecyclerOptions<Food> options = new FirebaseRecyclerOptions.Builder<Food>()
-                .setQuery(query, Food.class)
-                .build();
-        adapter = new FirebaseRecyclerAdapter<Food, FoodViewHolder>(options)
-            //is like select query
-        {
-
-
-            @NonNull
+    public void getAllFood(final MyFoodCallback callback) {
+        final ArrayList<Food> animals = new ArrayList<>();
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Food");
+        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
-            public FoodViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                return null;
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Food animal = snapshot.getValue(Food.class);
+                    animal.setKey(snapshot.getKey());
+                    if (animal != null) {
+                        animals.add(animal);
+                    }
+                }
+                callback.onCallback(animals);
             }
 
             @Override
-            protected void onBindViewHolder(@NonNull FoodViewHolder viewHolder, int position, @NonNull Food model) {
-                viewHolder.food_name.setText(model.getName());
-                Glide.with(getBaseContext()).load(model.getImage()).into(viewHolder.food_image);
-                final Food local = model;
-                viewHolder.setItemClickListener(new ItemClickListener() {
-                    @Override
-                    public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(FoodList.this,""+local.getName(),Toast.LENGTH_SHORT).show();
-                        //start activity
-                        Intent foodDetails = new Intent(FoodList.this,FoodDetail.class);
-                        foodDetails.putExtra("FoodId",adapter.getRef(position).getKey());
-                        startActivity(foodDetails);
-
-                    }
-                });
+            public void onCancelled(DatabaseError databaseError) {
+                // Handle database error
             }
+        });
 
-/*            @Override
-            protected void populateViewHolder(FoodViewHolder viewHolder, Food model, final int position) {
-                viewHolder.food_name.setText(model.getName());
-                Glide.with(getBaseContext()).load(model.getImage()).into(viewHolder.food_image);
-                final Food local = model;
-                viewHolder.setItemClickListener(new ItemClickListener() {
-                    @Override
-                    public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(FoodList.this,""+local.getName(),Toast.LENGTH_SHORT).show();
 
-                        //start activity
-                        Intent foodDetails = new Intent(FoodList.this,FoodDetail.class);
-                        foodDetails.putExtra("FoodId",adapter.getRef(position).getKey());
-                        startActivity(foodDetails);
-
-                    }
-                });
-
-            }*/
-        };
-        Log.d("TAG",""+adapter.getItemCount());
-        recyclerView.setAdapter(adapter);
     }
+
+
 }

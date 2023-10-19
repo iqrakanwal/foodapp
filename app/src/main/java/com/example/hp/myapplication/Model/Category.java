@@ -3,15 +3,24 @@ package com.example.hp.myapplication.Model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Category implements Parcelable {
-private int id;
+public class Category  {
+    private int id;
     private String Name;
     private String Image;
+    private String key;
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
     public Category(){
     }
 
-    public Category(int id, String name, String image) {
-        this.id = id;
+    public Category(String name, String image) {
         Name = name;
         Image = image;
     }
@@ -39,13 +48,5 @@ private int id;
         this.id = id;
     }
 
-    @Override
-    public int describeContents() {
-        return 0;
-    }
 
-    @Override
-    public void writeToParcel(Parcel dest, int flags) {
-
-    }
 }
