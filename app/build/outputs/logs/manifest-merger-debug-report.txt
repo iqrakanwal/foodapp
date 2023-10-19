@@ -1,0 +1,555 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\70cc00d5bd9fab58824ef678365acc2c\transformed\jetified-lib-1.0.2\AndroidManifest.xml:2:1-19:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6cfbaa14b0d69c988da6c97fa9aedae4\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\530c6b6f4da13a166f8777e6acca9712\transformed\jetified-com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\079f5f6dae03bec7ece3d5026d7898e2\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\3efb5e4bc52a4e02f0877ab0a018cfef\transformed\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ea31433cb74fe975742512597a751402\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d179405744c630f4367b5d693d4bd0b4\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.firebaseui:firebase-ui-database:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\22da517d9d8b5e40c38861be8bef0ce7\transformed\jetified-firebase-ui-database-8.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9adb82fc5396b2921c1dd0542298208c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-core:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc7630ebfaa73333d03c32ab1842d24\transformed\jetified-firebase-core-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:15:1-37:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ef08d32ac9d7e63e4692198b24cf2e86\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\240b11790c7e481a267b612de14cbf7b\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c17a0625f917f3f2862d6eda94c93427\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1e2d2eb4105b3ff685bf660d864186b3\transformed\jetified-firebase-appcheck-interop-17.0.1\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\83dc7b61cbc5c36c9a598ad1b9b39bb1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\59c8febd5987805ea08f3a6298c4b153\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\dd74fa7d3b943618f6824389b554d5f2\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ed670357c0dda34fb73795cd7c15fedb\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\906f4708a3b29d8be3f0341985a1d0e9\transformed\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\96acb8448b5a5575f367381cbfe1d945\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41d180c3fccc72e8e1314c05a75a7dd7\transformed\jetified-play-services-measurement-sdk-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b8f409b53c978b09aa8c040528b99efe\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\5038d6b9cdf4408e71614a00af606a08\transformed\jetified-play-services-measurement-base-19.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\08da84be273b5f0681d13b63ed71a66d\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac7ff6926e84eb02ee94d658a47d70e9\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\502908e1ed5dd212aea22d79f752cf98\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a109a1bd29035432a18e743903f1b1da\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\da9262f1dfdd2d05dadbf82033765146\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d7f689ba768945f843d84ac324187d1b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\8130113e80c46b3d9cd8c88691e00c0b\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\e8ff627e1b378bad6f087e26f67c6b94\transformed\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\fdc6016f15f26e8d855942be95a63247\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1c777a0538083a5e5de36eda2bc833a8\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ee42baf95b6de8d323dd6020e70e86a6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\81389de886121a6bae031021959a16bd\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b10efe7fa373f044b78d09825baa4cf2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c7e34776440d3b4b6a5a301c7e0228cc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\184e363d51aca5388f42c52bed36c423\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6a78c01ab7bdde2e74dbc67c1334fd72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\8040d868b758e89385cc4d1f74d87a0f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\133a29ba3103d6aa201ae539448c2da2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ebc6387e10ad1c242e75648286f7bff0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bdab5c3ebe32593886ce1c915a5c97bb\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\07d1cdd2c27b860340a076aea45b5b18\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c8d7680703290fabaac7a273c0d9b3a8\transformed\jetified-firebase-ui-common-8.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bc9f33935432b590cfb32e326dd25b58\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0e15ec4f9315e514d80309ef3166b341\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d45de46cb9846deccff09d27a212e11e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6349c6384143322cf1061c7c4b8f9b7d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bf4e09748a7663a03162f9e2407faa44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9b69164fb4cb088fb84de1cfa03882e2\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d2c17b2d712b79df01939a9b5b57eeba\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d34676e4edbbfb554bf8d50126989433\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\7609f69c0dd724493714a767843d1399\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.firebaseui:firebase-ui-database:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\22da517d9d8b5e40c38861be8bef0ce7\transformed\jetified-firebase-ui-database-8.0.2\AndroidManifest.xml:9:5-67
+MERGED from [com.firebaseui:firebase-ui-database:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\22da517d9d8b5e40c38861be8bef0ce7\transformed\jetified-firebase-ui-database-8.0.2\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\70cc00d5bd9fab58824ef678365acc2c\transformed\jetified-lib-1.0.2\AndroidManifest.xml:11:5-17:19
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\70cc00d5bd9fab58824ef678365acc2c\transformed\jetified-lib-1.0.2\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\530c6b6f4da13a166f8777e6acca9712\transformed\jetified-com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\530c6b6f4da13a166f8777e6acca9712\transformed\jetified-com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\079f5f6dae03bec7ece3d5026d7898e2\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\079f5f6dae03bec7ece3d5026d7898e2\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d179405744c630f4367b5d693d4bd0b4\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d179405744c630f4367b5d693d4bd0b4\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-core:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc7630ebfaa73333d03c32ab1842d24\transformed\jetified-firebase-core-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc7630ebfaa73333d03c32ab1842d24\transformed\jetified-firebase-core-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:27:5-35:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ef08d32ac9d7e63e4692198b24cf2e86\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ef08d32ac9d7e63e4692198b24cf2e86\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1e2d2eb4105b3ff685bf660d864186b3\transformed\jetified-firebase-appcheck-interop-17.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1e2d2eb4105b3ff685bf660d864186b3\transformed\jetified-firebase-appcheck-interop-17.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\59c8febd5987805ea08f3a6298c4b153\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\59c8febd5987805ea08f3a6298c4b153\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\dd74fa7d3b943618f6824389b554d5f2\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\dd74fa7d3b943618f6824389b554d5f2\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\96acb8448b5a5575f367381cbfe1d945\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\96acb8448b5a5575f367381cbfe1d945\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41d180c3fccc72e8e1314c05a75a7dd7\transformed\jetified-play-services-measurement-sdk-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41d180c3fccc72e8e1314c05a75a7dd7\transformed\jetified-play-services-measurement-sdk-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b8f409b53c978b09aa8c040528b99efe\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b8f409b53c978b09aa8c040528b99efe\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\5038d6b9cdf4408e71614a00af606a08\transformed\jetified-play-services-measurement-base-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\5038d6b9cdf4408e71614a00af606a08\transformed\jetified-play-services-measurement-base-19.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\08da84be273b5f0681d13b63ed71a66d\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\08da84be273b5f0681d13b63ed71a66d\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac7ff6926e84eb02ee94d658a47d70e9\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac7ff6926e84eb02ee94d658a47d70e9\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\133a29ba3103d6aa201ae539448c2da2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\133a29ba3103d6aa201ae539448c2da2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.hp.myapplication.admin.AddCatagoryActivity
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:15:9-19:20
+	android:exported
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:16:13-54
+activity#com.example.hp.myapplication.AddItemtofire
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:20:9-22:40
+	android:exported
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:21:13-42
+activity#com.example.hp.myapplication.WelcomeActivity
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:exported
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:24:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.example.hp.myapplication.MainActivity
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:32:9-35:47
+	android:label
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:34:13-59
+	android:theme
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:35:13-44
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:33:13-41
+activity#com.example.hp.myapplication.SignIn
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:36:9-44
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:36:19-41
+activity#com.example.hp.myapplication.AdminSide
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:37:9-47
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:37:19-44
+activity#com.example.hp.myapplication.SignUp
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:38:9-44
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:38:19-41
+activity#com.example.hp.myapplication.Home
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:39:9-42:47
+	android:label
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:41:13-56
+	android:theme
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:40:13-33
+activity#com.example.hp.myapplication.FoodList
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:43:9-46
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:43:19-43
+activity#com.example.hp.myapplication.FoodDetail
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:44:9-48
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:44:19-45
+activity#com.example.hp.myapplication.Cart
+ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:45:9-42
+	android:name
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml:45:19-39
+uses-sdk
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\70cc00d5bd9fab58824ef678365acc2c\transformed\jetified-lib-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\70cc00d5bd9fab58824ef678365acc2c\transformed\jetified-lib-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6cfbaa14b0d69c988da6c97fa9aedae4\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6cfbaa14b0d69c988da6c97fa9aedae4\transformed\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\530c6b6f4da13a166f8777e6acca9712\transformed\jetified-com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\530c6b6f4da13a166f8777e6acca9712\transformed\jetified-com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\079f5f6dae03bec7ece3d5026d7898e2\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\079f5f6dae03bec7ece3d5026d7898e2\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\3efb5e4bc52a4e02f0877ab0a018cfef\transformed\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\3efb5e4bc52a4e02f0877ab0a018cfef\transformed\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ea31433cb74fe975742512597a751402\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ea31433cb74fe975742512597a751402\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d179405744c630f4367b5d693d4bd0b4\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d179405744c630f4367b5d693d4bd0b4\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.firebaseui:firebase-ui-database:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\22da517d9d8b5e40c38861be8bef0ce7\transformed\jetified-firebase-ui-database-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-database:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\22da517d9d8b5e40c38861be8bef0ce7\transformed\jetified-firebase-ui-database-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9adb82fc5396b2921c1dd0542298208c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9adb82fc5396b2921c1dd0542298208c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-core:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc7630ebfaa73333d03c32ab1842d24\transformed\jetified-firebase-core-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc7630ebfaa73333d03c32ab1842d24\transformed\jetified-firebase-core-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:18:5-20:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ef08d32ac9d7e63e4692198b24cf2e86\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ef08d32ac9d7e63e4692198b24cf2e86\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\240b11790c7e481a267b612de14cbf7b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\240b11790c7e481a267b612de14cbf7b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c17a0625f917f3f2862d6eda94c93427\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c17a0625f917f3f2862d6eda94c93427\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1e2d2eb4105b3ff685bf660d864186b3\transformed\jetified-firebase-appcheck-interop-17.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1e2d2eb4105b3ff685bf660d864186b3\transformed\jetified-firebase-appcheck-interop-17.0.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\83dc7b61cbc5c36c9a598ad1b9b39bb1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\83dc7b61cbc5c36c9a598ad1b9b39bb1\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\59c8febd5987805ea08f3a6298c4b153\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\59c8febd5987805ea08f3a6298c4b153\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\dd74fa7d3b943618f6824389b554d5f2\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\dd74fa7d3b943618f6824389b554d5f2\transformed\jetified-firebase-analytics-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ed670357c0dda34fb73795cd7c15fedb\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ed670357c0dda34fb73795cd7c15fedb\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\906f4708a3b29d8be3f0341985a1d0e9\transformed\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\906f4708a3b29d8be3f0341985a1d0e9\transformed\jetified-firebase-installations-interop-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\96acb8448b5a5575f367381cbfe1d945\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\96acb8448b5a5575f367381cbfe1d945\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41d180c3fccc72e8e1314c05a75a7dd7\transformed\jetified-play-services-measurement-sdk-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41d180c3fccc72e8e1314c05a75a7dd7\transformed\jetified-play-services-measurement-sdk-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b8f409b53c978b09aa8c040528b99efe\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b8f409b53c978b09aa8c040528b99efe\transformed\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\5038d6b9cdf4408e71614a00af606a08\transformed\jetified-play-services-measurement-base-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\5038d6b9cdf4408e71614a00af606a08\transformed\jetified-play-services-measurement-base-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\08da84be273b5f0681d13b63ed71a66d\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\08da84be273b5f0681d13b63ed71a66d\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac7ff6926e84eb02ee94d658a47d70e9\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac7ff6926e84eb02ee94d658a47d70e9\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\502908e1ed5dd212aea22d79f752cf98\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\502908e1ed5dd212aea22d79f752cf98\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a109a1bd29035432a18e743903f1b1da\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a109a1bd29035432a18e743903f1b1da\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\da9262f1dfdd2d05dadbf82033765146\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\da9262f1dfdd2d05dadbf82033765146\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d7f689ba768945f843d84ac324187d1b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d7f689ba768945f843d84ac324187d1b\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\8130113e80c46b3d9cd8c88691e00c0b\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\8130113e80c46b3d9cd8c88691e00c0b\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\e8ff627e1b378bad6f087e26f67c6b94\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\e8ff627e1b378bad6f087e26f67c6b94\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\fdc6016f15f26e8d855942be95a63247\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\fdc6016f15f26e8d855942be95a63247\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1c777a0538083a5e5de36eda2bc833a8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\1c777a0538083a5e5de36eda2bc833a8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ee42baf95b6de8d323dd6020e70e86a6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ee42baf95b6de8d323dd6020e70e86a6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\81389de886121a6bae031021959a16bd\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\81389de886121a6bae031021959a16bd\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b10efe7fa373f044b78d09825baa4cf2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b10efe7fa373f044b78d09825baa4cf2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c7e34776440d3b4b6a5a301c7e0228cc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c7e34776440d3b4b6a5a301c7e0228cc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\184e363d51aca5388f42c52bed36c423\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\184e363d51aca5388f42c52bed36c423\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6a78c01ab7bdde2e74dbc67c1334fd72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6a78c01ab7bdde2e74dbc67c1334fd72\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\8040d868b758e89385cc4d1f74d87a0f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\8040d868b758e89385cc4d1f74d87a0f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\133a29ba3103d6aa201ae539448c2da2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\133a29ba3103d6aa201ae539448c2da2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ebc6387e10ad1c242e75648286f7bff0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ebc6387e10ad1c242e75648286f7bff0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bdab5c3ebe32593886ce1c915a5c97bb\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bdab5c3ebe32593886ce1c915a5c97bb\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\07d1cdd2c27b860340a076aea45b5b18\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\07d1cdd2c27b860340a076aea45b5b18\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.firebaseui:firebase-ui-common:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c8d7680703290fabaac7a273c0d9b3a8\transformed\jetified-firebase-ui-common-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-common:8.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c8d7680703290fabaac7a273c0d9b3a8\transformed\jetified-firebase-ui-common-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bc9f33935432b590cfb32e326dd25b58\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bc9f33935432b590cfb32e326dd25b58\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0e15ec4f9315e514d80309ef3166b341\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0e15ec4f9315e514d80309ef3166b341\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d45de46cb9846deccff09d27a212e11e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d45de46cb9846deccff09d27a212e11e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6349c6384143322cf1061c7c4b8f9b7d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6349c6384143322cf1061c7c4b8f9b7d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bf4e09748a7663a03162f9e2407faa44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bf4e09748a7663a03162f9e2407faa44\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9b69164fb4cb088fb84de1cfa03882e2\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9b69164fb4cb088fb84de1cfa03882e2\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d2c17b2d712b79df01939a9b5b57eeba\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d2c17b2d712b79df01939a9b5b57eeba\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d34676e4edbbfb554bf8d50126989433\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\d34676e4edbbfb554bf8d50126989433\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\7609f69c0dd724493714a767843d1399\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\7609f69c0dd724493714a767843d1399\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		ADDED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Food_Ordering_App-master\Food_Ordering_App-master\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\25bfda8e0f6022e209006ac2d9e2a7ee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:15:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6d41236a94568045cf3c7bc9d08be430\transformed\jetified-play-services-measurement-sdk-api-19.0.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\a2a63e63eba77e812fd56c2182802696\transformed\jetified-play-services-measurement-impl-19.0.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205867779835",
+    "project_id": "cheeseorder-dfefc",
+    "storage_bucket": "cheeseorder-dfefc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205867779835:android:6a83bd82304aaf1b24d25e",
+        "android_client_info": {
+          "package_name": "com.example.hp.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205867779835-ntj5fe5c1u0sapo5457d2bvinfifvfs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6-grcopi_6JRtE4V7osE07XI18GGpG7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205867779835-ntj5fe5c1u0sapo5457d2bvinfifvfs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">205867779835-ntj5fe5c1u0sapo5457d2bvinfifvfs6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">205867779835</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6-grcopi_6JRtE4V7osE07XI18GGpG7g</string>
+    <string name="google_app_id" translatable="false">1:205867779835:android:6a83bd82304aaf1b24d25e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6-grcopi_6JRtE4V7osE07XI18GGpG7g</string>
+    <string name="google_storage_bucket" translatable="false">cheeseorder-dfefc.appspot.com</string>
+    <string name="project_id" translatable="false">cheeseorder-dfefc</string>
+</resources>
