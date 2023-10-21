@@ -25,7 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 public class FoodList extends AppCompatActivity {
-ArrayList<Food> foodArrayList;
+    ArrayList<Food> foodArrayList;
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
     FirebaseDatabase database;
