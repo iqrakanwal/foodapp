@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.hp.myapplication.app-mergeDebugResources-23:/values-v23/values-v23.xml",
+            "outputFile": "com.example.hp.myapplication.app-mergeDebugResources-25:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fadi\\.gradle\\caches\\transforms-3\\ea31433cb74fe975742512597a751402\\transformed\\appcompat-1.0.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1131,1787,1914,2019,2134,2241",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1126,1782,1909,2014,2129,2236,2349"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\fadi\\.gradle\\caches\\transforms-3\\240b11790c7e481a267b612de14cbf7b\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Iqra Kanwal\\.gradle\\caches\\transforms-3\\d3b4d9b557c725af8f807909a722cec0\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -39,6 +20,25 @@
                         "endLines": "39",
                         "endColumns": "12",
                         "endOffsets": "2499"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Iqra Kanwal\\.gradle\\caches\\transforms-3\\99fcd8ded52e76097b1c28d86c154b13\\transformed\\appcompat-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1131,1787,1914,2019,2134,2241",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1126,1782,1909,2014,2129,2236,2349"
                     }
                 }
             ]

@@ -1,6 +1,7 @@
 package com.example.hp.myapplication;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -23,7 +24,6 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-
         edtName = (MaterialEditText)findViewById(R.id.Name);
         edtPhone = (MaterialEditText)findViewById(R.id.edtPhone);
         edtPassword = (MaterialEditText)findViewById(R.id.edtPassword);
@@ -33,7 +33,6 @@ public class SignUp extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 final ProgressDialog progressDialog = new ProgressDialog(SignUp.this);
                 progressDialog.setMessage("Please wait..!");
                 progressDialog.show();
@@ -51,6 +50,8 @@ public class SignUp extends AppCompatActivity {
                             User user = new User(edtName.getText().toString(),edtPassword.getText().toString());
                             table_user.child(edtPhone.getText().toString()).setValue(user);
                             Toast.makeText(SignUp.this,"SignUp successfully! " ,Toast.LENGTH_SHORT).show();
+                            Intent intent= new Intent(SignUp.this, Home.class);
+                            startActivity(intent);
                             finish();
 
                         }

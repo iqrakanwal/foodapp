@@ -48,8 +48,6 @@ public class AddCatagoryActivity extends AppCompatActivity {
     FirebaseStorage storage = FirebaseStorage.getInstance();
     StorageReference storageReference = storage.getReference();
     Button addcatagory;
-
-
     public static final int PICK_IMAGE = 1;
     private String doctorPath = "";
     private Uri doctorFilePath = null;

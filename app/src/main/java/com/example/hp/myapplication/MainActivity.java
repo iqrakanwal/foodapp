@@ -20,9 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
         btnSignIn = (Button)findViewById(R.id.btnSignIn);
-
         slogan = (TextView)findViewById(R.id.slogan);
-
         Typeface face = Typeface.createFromAsset(getAssets(),"Fonts/NABILA.TTF");
         slogan.setTypeface(face);
 
@@ -37,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-          //  Intent SignUp = new Intent(MainActivity.this, SignUp.class);
-          //  startActivity(SignUp);
+            Intent SignUp = new Intent(MainActivity.this, SignUp.class);
+            startActivity(SignUp);
             }
         });
     }

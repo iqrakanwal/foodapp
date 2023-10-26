@@ -21,7 +21,7 @@
         android:fitsSystemWindows="true"
         android:id="@+id/collapsing"
         app:layout_scrollFlags = "scroll|exitUntilCollapsed"
-        app:contentScrim="#0e0d0e"
+        app:contentScrim="@android:color/holo_orange_light"
         app:expandedTitleTextAppearance="@android:color/transparent"
         >
 
@@ -124,7 +124,7 @@
                       android:layout_marginTop="8dp"
                       android:layout_marginBottom="18dp"
                       app:textSize="8dp"
-                      app:backGroundColor="@color/colorAccent"
+                      app:backGroundColor="@android:color/holo_orange_light"
                       app:initialNumber="1"
                       app:finalNumber="20"
                       ></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>

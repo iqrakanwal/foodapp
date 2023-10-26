@@ -20,6 +20,7 @@ import com.example.hp.myapplication.Common.Common;
 import com.example.hp.myapplication.Database.Database;
 import com.example.hp.myapplication.Model.Order;
 import com.example.hp.myapplication.Model.Request;
+import com.example.hp.myapplication.Model.StatusType;
 import com.example.hp.myapplication.ViewHolder.CartAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -71,7 +72,6 @@ public class Cart extends AppCompatActivity {
             AlertDialog.Builder builder = new AlertDialog.Builder(Cart.this);
             builder.setTitle("One More Step!");
             builder.setMessage("Enter Your Address:");
-
             final EditText edtAddress = new EditText(Cart.this);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT,
@@ -83,16 +83,13 @@ public class Cart extends AppCompatActivity {
             builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-//create new request
                     Request request = new Request(
                             Common.currentUser.getPhone(),
                             Common.currentUser.getName(),
                             edtAddress.getText().toString(),
                             txtTotalPrice.getText().toString(),
-                            cart
+                            cart, StatusType.PENDING
                     );
-                    //submit to firebase
-                    //currentMilli to key
                     requests.child(String.valueOf(System.currentTimeMillis())).setValue(request);
                     //delete cart
                     new Database(getBaseContext()).cleanCart();

@@ -7,8 +7,6 @@ public class Cheese {
     private String Description;
     private String image;
     private String price;
-
-
     private String key;
 
     public Cheese() {

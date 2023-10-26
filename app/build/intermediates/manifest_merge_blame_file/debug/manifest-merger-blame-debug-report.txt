@@ -6,241 +6,367 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml
+8-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml
+9-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:6:22-64
+11-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\fadi\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:5-79
-15-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\fadi\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:22-76
-16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
-16-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
-17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-17-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
-17-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
-18
-19    <application
-19-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:8:5-53:19
-20        android:allowBackup="true"
-20-->[com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\fadi\.gradle\caches\transforms-3\70cc00d5bd9fab58824ef678365acc2c\transformed\jetified-lib-1.0.2\AndroidManifest.xml:12:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.3.2] C:\Users\fadi\.gradle\caches\transforms-3\f66778c3e2ad252175ce3b200893f9d5\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:9:9-43
-24        android:label="@string/app_name"
-24-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:10:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:11:9-54
-26        android:supportsRtl="true"
-26-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:12:9-35
-27        android:theme="@style/AppTheme" >
-27-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:13:9-40
-28        <activity
-28-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:14:9-18:20
-29            android:name="com.example.hp.myapplication.admin.AddCatagoryActivity"
-29-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:15:13-54
-30            android:exported="true" >
-30-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:16:13-36
-31        </activity>
-32        <activity
-32-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:19:9-21:40
-33            android:name="com.example.hp.myapplication.AddItemtofire"
-33-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:20:13-42
-34            android:exported="false" />
-34-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:21:13-37
-35        <activity
-35-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:22:9-26:20
-36            android:name="com.example.hp.myapplication.WelcomeActivity"
-36-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:23:13-44
-37            android:exported="false" >
-37-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:24:13-37
-38        </activity>
-39        <activity
-39-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:27:9-40:20
-40            android:name="com.example.hp.myapplication.MainActivity"
-40-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:28:13-41
-41            android:exported="true"
-41-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:30:13-36
-42            android:label="@string/title_activity_welcome"
-42-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:29:13-59
-43            android:theme="@style/AppTheme" >
-43-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:31:13-44
-44            <intent-filter>
-44-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:35:13-39:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:36:17-69
-45-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:36:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:38:17-77
-47-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:38:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:41:9-70
-51            android:name="com.example.hp.myapplication.SignIn"
-51-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:41:19-41
-52            android:exported="false" />
-52-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:41:43-67
-53        <activity
-53-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:42:9-43:40
-54            android:name="com.example.hp.myapplication.AdminSide"
-54-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:42:19-44
-55            android:exported="false" />
-55-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:43:13-37
+15-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bda6e660d4c11e4599a159985d394f82\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bda6e660d4c11e4599a159985d394f82\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:23:5-77
+16-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:23:22-74
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:24:5-68
+17-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:26:22-79
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:9:5-67:19
+22        android:allowBackup="true"
+22-->[com.cepheuen.elegant-number-button:lib:1.0.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\957262a7afd147e8adb44e8630f2a241\transformed\jetified-lib-1.0.2\AndroidManifest.xml:12:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\60edfbeccba2427a3f7814ed6ab1fb29\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:10:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:11:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:12:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:13:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:14:9-40
+31        <meta-data
+31-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:17:9-19:57
+32            android:name="com.google.firebase.messaging.default_notification_icon"
+32-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:18:13-83
+33            android:resource="@drawable/side_nav_bar" />
+33-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:19:13-54
+34        <meta-data
+34-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:20:9-22:71
+35            android:name="com.google.firebase.messaging.default_notification_channel_id"
+35-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:21:13-89
+36            android:value="@string/default_notification_channel_id" />
+36-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:22:13-68
+37        <!--
+38             Set color used with incoming notification messages. This is used when no color is set for the incoming
+39             notification message. See README(https://goo.gl/6BKBk7) for more.
+40        -->
+41        <meta-data
+41-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:25:9-27:53
+42            android:name="com.google.firebase.messaging.default_notification_color"
+42-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:26:13-84
+43            android:resource="@color/colorAccent" />
+43-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:27:13-50
+44
+45        <activity
+45-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:28:9-32:20
+46            android:name="com.example.hp.myapplication.admin.AddCatagoryActivity"
+46-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:29:13-54
+47            android:exported="true" >
+47-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:30:13-36
+48        </activity>
+49        <activity
+49-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:33:9-35:40
+50            android:name="com.example.hp.myapplication.AddItemtofire"
+50-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:34:13-42
+51            android:exported="false" />
+51-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:35:13-37
+52        <activity
+52-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:36:9-40:20
+53            android:name="com.example.hp.myapplication.WelcomeActivity"
+53-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:37:13-44
+54            android:exported="false" >
+54-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:38:13-37
+55        </activity>
 56        <activity
-56-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:44:9-45:39
-57            android:name="com.example.hp.myapplication.SignUp"
-57-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:44:19-41
-58            android:exported="false" />
-58-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:45:13-37
-59        <activity
-59-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:46:9-49:47
-60            android:name="com.example.hp.myapplication.Home"
-60-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:47:13-33
-61            android:label="@string/title_activity_home"
-61-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:48:13-56
-62            android:theme="@style/AppTheme" />
-62-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:49:13-44
-63        <activity
-63-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:50:9-71
-64            android:name="com.example.hp.myapplication.FoodList"
-64-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:50:19-43
-65            android:exported="false" />
-65-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:50:45-69
-66        <activity
-66-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:51:9-73
-67            android:name="com.example.hp.myapplication.FoodDetail"
-67-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:51:19-45
-68            android:exported="false" />
-68-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:51:47-71
-69        <activity
-69-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:52:9-67
-70            android:name="com.example.hp.myapplication.Cart"
-70-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:52:19-39
-71            android:exported="false" />
-71-->C:\Users\fadi\foodapp\app\src\main\AndroidManifest.xml:52:41-65
-72
-73        <provider
-73-->[com.squareup.picasso:picasso:2.71828] C:\Users\fadi\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-74            android:name="com.squareup.picasso.PicassoProvider"
-74-->[com.squareup.picasso:picasso:2.71828] C:\Users\fadi\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-75            android:authorities="com.example.hp.myapplication.com.squareup.picasso"
-75-->[com.squareup.picasso:picasso:2.71828] C:\Users\fadi\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-76            android:exported="false" />
-76-->[com.squareup.picasso:picasso:2.71828] C:\Users\fadi\.gradle\caches\transforms-3\c30e73677f304d00d3afff81e577901f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-77
-78        <service
-78-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:11:9-17:19
-79            android:name="com.google.firebase.components.ComponentDiscoveryService"
-79-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:12:13-84
-80            android:directBootAware="true"
-80-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
-81            android:exported="false" >
-81-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:13:13-37
-82            <meta-data
-82-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
-83                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
-83-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:15:17-124
-84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\41b5fc632e7f5488dd4e9ff3971a22f1\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:16:17-82
-85            <meta-data
-85-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\fadi\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
-86                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-86-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\fadi\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
-87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\fadi\.gradle\caches\transforms-3\c19b0f449863d9332b0ad80716ad1c9e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
-88            <meta-data
-88-->[com.google.firebase:firebase-database:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
-89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-89-->[com.google.firebase:firebase-database:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
-90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[com.google.firebase:firebase-database:20.2.2] C:\Users\fadi\.gradle\caches\transforms-3\a7cf5cbe1ed395a7b1ee979534e359ef\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
-91            <meta-data
-91-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
-92                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-92-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
-93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\ac0b6d4c44585da2109dc5475cf32538\transformed\jetified-firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
-94            <meta-data
-94-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
-95                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-95-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
-96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\077494b634beb9cd8fe179fd17b2dc76\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
-97            <meta-data
-97-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\fadi\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
-98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-98-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\fadi\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
-99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\fadi\.gradle\caches\transforms-3\b782817b4bd19848ea63582804d02c39\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
-100        </service>
-101
-102        <activity
-102-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-103-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-105-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\9f6d747feb5b2dfb8730e43942fa2da2\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-106
-107        <provider
-107-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
-108            android:name="com.google.firebase.provider.FirebaseInitProvider"
-108-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
-109            android:authorities="com.example.hp.myapplication.firebaseinitprovider"
-109-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
-110            android:directBootAware="true"
-110-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
-111            android:exported="false"
-111-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
-112            android:initOrder="100" />
-112-->[com.google.firebase:firebase-common:20.3.2] C:\Users\fadi\.gradle\caches\transforms-3\35b3adac5597f4c77ea65d080630dd4a\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
-113
-114        <receiver
-114-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
-115            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-115-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
-116            android:enabled="true"
-116-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
-117            android:exported="false" >
-117-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
-118        </receiver>
-119
-120        <service
-120-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
-121            android:name="com.google.android.gms.measurement.AppMeasurementService"
-121-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
-122            android:enabled="true"
-122-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
-123            android:exported="false" />
-123-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
-124        <service
-124-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
-125            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-125-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
-126            android:enabled="true"
-126-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
-127            android:exported="false"
-127-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
-128            android:permission="android.permission.BIND_JOB_SERVICE" />
-128-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\fadi\.gradle\caches\transforms-3\f4d6f21e22ca898d8a5c929364c8f659\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
-129
-130        <meta-data
-130-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-131            android:name="com.google.android.gms.version"
-131-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-132            android:value="@integer/google_play_services_version" />
-132-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\fadi\.gradle\caches\transforms-3\0bc9b5081fbdafbc743c60d9be612fe2\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-133    </application>
-134
-135</manifest>
+56-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:41:9-54:20
+57            android:name="com.example.hp.myapplication.MainActivity"
+57-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:42:13-41
+58            android:exported="true"
+58-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:44:13-36
+59            android:label="@string/title_activity_welcome"
+59-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:43:13-59
+60            android:theme="@style/AppTheme" >
+60-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:45:13-44
+61            <intent-filter>
+61-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:49:13-53:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:50:17-69
+62-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:50:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:52:17-77
+64-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:52:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:55:9-70
+68            android:name="com.example.hp.myapplication.SignIn"
+68-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:55:19-41
+69            android:exported="false" />
+69-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:55:43-67
+70        <activity
+70-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:56:9-57:40
+71            android:name="com.example.hp.myapplication.AdminSide"
+71-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:56:19-44
+72            android:exported="false" />
+72-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:57:13-37
+73        <activity
+73-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:58:9-59:39
+74            android:name="com.example.hp.myapplication.SignUp"
+74-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:58:19-41
+75            android:exported="false" />
+75-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:59:13-37
+76        <activity
+76-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:60:9-63:47
+77            android:name="com.example.hp.myapplication.Home"
+77-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:61:13-33
+78            android:label="@string/title_activity_home"
+78-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:62:13-56
+79            android:theme="@style/AppTheme" />
+79-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:63:13-44
+80        <activity
+80-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:64:9-71
+81            android:name="com.example.hp.myapplication.FoodList"
+81-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:64:19-43
+82            android:exported="false" />
+82-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:64:45-69
+83        <activity
+83-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:65:9-73
+84            android:name="com.example.hp.myapplication.FoodDetail"
+84-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:65:19-45
+85            android:exported="false" />
+85-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:65:47-71
+86        <activity
+86-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:66:9-67
+87            android:name="com.example.hp.myapplication.Cart"
+87-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:66:19-39
+88            android:exported="false" />
+88-->C:\Users\Iqra Kanwal\foodapp\app\src\main\AndroidManifest.xml:66:41-65
+89
+90        <provider
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\13458ff760e587e3be1c0da38bf7f037\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+91            android:name="com.squareup.picasso.PicassoProvider"
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\13458ff760e587e3be1c0da38bf7f037\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+92            android:authorities="com.example.hp.myapplication.com.squareup.picasso"
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\13458ff760e587e3be1c0da38bf7f037\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+93            android:exported="false" />
+93-->[com.squareup.picasso:picasso:2.71828] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\13458ff760e587e3be1c0da38bf7f037\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+94
+95        <service
+95-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f55227fca0075001ae37964555fdecbb\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:11:9-17:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f55227fca0075001ae37964555fdecbb\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:12:13-84
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f55227fca0075001ae37964555fdecbb\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:13:13-37
+99            <meta-data
+99-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f55227fca0075001ae37964555fdecbb\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
+100                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+100-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f55227fca0075001ae37964555fdecbb\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:15:17-124
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-database-ktx:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f55227fca0075001ae37964555fdecbb\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:16:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bda6e660d4c11e4599a159985d394f82\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+103-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bda6e660d4c11e4599a159985d394f82\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\bda6e660d4c11e4599a159985d394f82\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:53:13-55:85
+106                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+106-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:54:17-122
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:55:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:56:13-58:85
+109                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+109-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:57:17-119
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:58:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\4760fef1c253d4dc37e0134cf494543b\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+112                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+112-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\4760fef1c253d4dc37e0134cf494543b\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-database:20.2.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\4760fef1c253d4dc37e0134cf494543b\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+114            <meta-data
+114-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\164ad79ac510525b13fac80f9835a1c5\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+115                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+115-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\164ad79ac510525b13fac80f9835a1c5\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\164ad79ac510525b13fac80f9835a1c5\transformed\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6da89a876fe03b8d65034f298d906a05\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+118                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+118-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6da89a876fe03b8d65034f298d906a05\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6da89a876fe03b8d65034f298d906a05\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6da89a876fe03b8d65034f298d906a05\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+121                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+121-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6da89a876fe03b8d65034f298d906a05\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\6da89a876fe03b8d65034f298d906a05\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\4c62a3f895e6aee509ebcc83d06cb178\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+124                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+124-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\4c62a3f895e6aee509ebcc83d06cb178\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\4c62a3f895e6aee509ebcc83d06cb178\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+127                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+127-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\2834561276043a986d57506eec04ef6c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+130                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+130-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\2834561276043a986d57506eec04ef6c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\2834561276043a986d57506eec04ef6c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+132        </service>
+133
+134        <receiver
+134-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:29:9-36:20
+135            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+135-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:30:13-78
+136            android:exported="true"
+136-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:31:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:32:13-73
+138            <intent-filter>
+138-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:33:13-35:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:34:17-81
+139-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:34:25-78
+140            </intent-filter>
+141        </receiver>
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             but set to not exported to explicitly avoid allowing another app to call it.
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:42:9-49:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:43:13-82
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:44:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:45:13-37
+150            <intent-filter android:priority="-500" >
+150-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:46:13-48:29
+150-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:46:28-51
+151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+151-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:47:17-78
+151-->[com.google.firebase:firebase-messaging:23.3.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\181bdae5333aadd2eccd92e825870bb0\transformed\jetified-firebase-messaging-23.3.0\AndroidManifest.xml:47:25-75
+152            </intent-filter>
+153        </service>
+154
+155        <provider
+155-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+156            android:name="com.google.firebase.provider.FirebaseInitProvider"
+156-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+157            android:authorities="com.example.hp.myapplication.firebaseinitprovider"
+157-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+159            android:exported="false"
+159-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+160            android:initOrder="100" />
+160-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\535ada4ffd3087733fd84bb0034cf037\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\27ba8257db10564959060e6b7551b5eb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\27ba8257db10564959060e6b7551b5eb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\27ba8257db10564959060e6b7551b5eb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\27ba8257db10564959060e6b7551b5eb\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+166
+167        <receiver
+167-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+168            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+168-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+169            android:enabled="true"
+169-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+170            android:exported="false" >
+170-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+171        </receiver>
+172
+173        <service
+173-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+174            android:name="com.google.android.gms.measurement.AppMeasurementService"
+174-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+176            android:exported="false" />
+176-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+177        <service
+177-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+178            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+178-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+180            android:exported="false"
+180-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+181            android:permission="android.permission.BIND_JOB_SERVICE" />
+181-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\38d56e784b452d9d66259c238c384a16\transformed\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+182
+183        <meta-data
+183-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\912c5a4da2a7dc3ca02a655f509bc984\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+184            android:name="com.google.android.gms.version"
+184-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\912c5a4da2a7dc3ca02a655f509bc984\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+185            android:value="@integer/google_play_services_version" />
+185-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\912c5a4da2a7dc3ca02a655f509bc984\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+186
+187        <service
+187-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\36a49e74db50b2ffd48dafe29a9f47a1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+188            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+188-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\36a49e74db50b2ffd48dafe29a9f47a1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+189            android:exported="false" >
+189-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\36a49e74db50b2ffd48dafe29a9f47a1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+190            <meta-data
+190-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\36a49e74db50b2ffd48dafe29a9f47a1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+191                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+191-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\36a49e74db50b2ffd48dafe29a9f47a1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+192                android:value="cct" />
+192-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\36a49e74db50b2ffd48dafe29a9f47a1\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+193        </service>
+194        <service
+194-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+195            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+195-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+196            android:exported="false"
+196-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+197            android:permission="android.permission.BIND_JOB_SERVICE" >
+197-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+198        </service>
+199
+200        <receiver
+200-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+201            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+201-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+202            android:exported="false" />
+202-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Iqra Kanwal\.gradle\caches\transforms-3\f99d3ec447f868c45d2659129590fea6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+203    </application>
+204
+205</manifest>

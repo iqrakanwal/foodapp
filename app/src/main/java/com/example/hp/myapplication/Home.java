@@ -13,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -54,8 +55,9 @@ RecyclerView recycler_menu;
 
     TextView txtFullName;
     RecyclerView recycle_menu;
-    Button add;
-    LinearLayoutManager layoutManager;
+ //   Button add;
+
+    GridLayoutManager layoutManager;
     private CatagoryAdaptor animalAdaptor;
     private ArrayList<Category> arrayList;
  //   private LinearLayoutManager layout;
@@ -65,7 +67,7 @@ RecyclerView recycler_menu;
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Menu");
-        add= findViewById(R.id.add);
+        //add= findViewById(R.id.add);
         setSupportActionBar(toolbar);
         recycler_menu = findViewById(R.id.recycler_menu);
         arrayList = new ArrayList<>();
@@ -81,13 +83,13 @@ RecyclerView recycler_menu;
                 startActivity(cart);
             }
         });
-        add.setOnClickListener(new View.OnClickListener() {
+/*        add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(Home.this,AddItemtofire.class );
                 startActivity(intent);
             }
-        });
+        });*/
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -100,7 +102,7 @@ RecyclerView recycler_menu;
         //Menu
         recycle_menu  = (RecyclerView)findViewById(R.id.recycler_menu);
         recycle_menu.setHasFixedSize(true);
-        layoutManager = new LinearLayoutManager(this);
+        layoutManager = new GridLayoutManager(this, 2);
         recycle_menu.setLayoutManager(layoutManager);
        // loadMenu();
         getAllAnimals(this);
@@ -145,8 +147,6 @@ RecyclerView recycler_menu;
 
             }
         });
-
-
 
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("catagory");

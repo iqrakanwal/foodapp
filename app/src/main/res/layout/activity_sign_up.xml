@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_50sdp"
-            android:text="Sign in "
+            android:text="Sign Up"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textSize="@dimen/_25sdp"
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="213dp" />
+        app:layout_constraintGuide_begin="240dp" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -89,18 +89,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/btnSignUp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
             android:layout_alignParentEnd="true"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <com.rengwuxian.materialedittext.MaterialEditText
                 android:id="@+id/edtPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
                 android:hint="Phone Number"
                 android:inputType="phone"
-                android:text="09856471230"
                 android:textColor="@android:color/white"
-                android:textSize="34sp"
+                android:textSize="@dimen/_12sdp"
                 app:met_floatingLabel="highlight"
                 app:met_maxCharacters="11"
                 app:met_primaryColor="@android:color/white"
@@ -110,11 +116,12 @@
                 android:id="@+id/Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:hint="Name"
-                android:inputType="phone"
-                android:text="abhishek"
+
+                android:inputType="text"
                 android:textColor="@android:color/white"
-                android:textSize="34sp"
+                android:textSize="@dimen/_12sdp"
                 app:met_floatingLabel="highlight"
                 app:met_primaryColor="@android:color/white"
                 app:met_singleLineEllipsis="true" />
@@ -123,11 +130,11 @@
                 android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:text="12345"
                 android:textColor="@android:color/white"
-                android:textSize="34sp"
+                android:textSize="@dimen/_12sdp"
                 app:met_floatingLabel="highlight"
                 app:met_maxCharacters="11"
                 app:met_primaryColor="@android:color/white"
@@ -142,10 +149,12 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-
             android:background="@drawable/button_gradient"
-
+            android:layout_marginTop="@dimen/_12sdp"
+android:textColor="@color/white"
             android:text="SignUp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />

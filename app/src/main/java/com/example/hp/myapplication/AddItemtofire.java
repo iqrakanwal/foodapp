@@ -97,7 +97,7 @@ EditText menu_et;
                         farmName
                 );
            //     adapter.setDropDownViewResource(android.);
-              adapter.setDropDownViewResource(                        android.R.layout.simple_spinner_item);
+              adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
                 catagories.setAdapter(adapter);
                 catagories.getSelectedItem().toString();
             }

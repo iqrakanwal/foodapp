@@ -1761,6 +1761,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable bg
+drawable bg_gradient
 drawable button_gradient
 drawable cheese
 drawable cheeseicon
@@ -1907,6 +1908,7 @@ id alertTitle
 id all
 id always
 id app_bar_layout
+id app_logo
 id async
 id auto
 id barrier
@@ -2021,6 +2023,7 @@ id light
 id line1
 id line3
 id linearLayout
+id linearLayout2
 id listCart
 id listMode
 id list_item
@@ -2055,6 +2058,7 @@ id number_button
 id number_counter
 id outline
 id packed
+id pager
 id parallax
 id parent
 id parentPanel
@@ -2120,6 +2124,7 @@ id submenuarrow
 id submit_area
 id subtract_btn
 id tabMode
+id tab_layout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2256,6 +2261,7 @@ layout mtrl_layout_snackbar_include
 layout nav_header_home
 layout notification_action
 layout notification_action_tombstone
+layout notification_layout
 layout notification_media_action
 layout notification_media_cancel_action
 layout notification_template_big_media
@@ -2348,9 +2354,11 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_notification_channel_id
 string default_web_client_id
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fcm_fallback_notification_channel_label
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -2973,4 +2981,5 @@ styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTe
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
+styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
